@@ -10,6 +10,7 @@
 		"run_at": "document_start",
 		"matches": ["chrome://new-tab-page-third-party/"],
 		"css" : ["mycss.css"],
+		"js" : ["inject.js"],
 		"all_frames": true
 	}],
 	"permissions": ["chrome://*/*"]
