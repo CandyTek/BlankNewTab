@@ -26,3 +26,17 @@
 # 完成
 
 <br>
+
+<br>
+
+# License
+
+Copyright (C) 2022 HolyshitOvO
+
+Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
+
+Please do not contact me except on this Github project issues.
+
+GPL-3.0 license
+
+
