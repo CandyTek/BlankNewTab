@@ -10,9 +10,15 @@
 
 > 设置 Extensions on chrome:// URLs 为 Enabled
 
-此选项为 允许第三方扩展访问 Chrome:// 链接。需第三方扩展自身请求权限才允许访问
+> 重启浏览器
 
-（猜想：商店里的扩展若加上该权限可能不被允许发布）
+风险说明：
+
+1. 此选项为(允许第三方扩展访问 Chrome:// 链接)。需第三方扩展自身请求权限(Chrome://)才允许访问
+
+2. 在没开启此flags 项前，声明了此权限(Chrome://)的扩展，是无法安装的；也就是说这种特殊扩展一般是接触不到的，因为扩展声明了此权限一般用户就安装不了；
+
+3. 开启此项后请务必安装正常来源的扩展，或者查看来源扩展是否声明了此权限，声明了此权限就一定要看看该扩展到底干了些什么）
 
 # 二、
 > 打开 chrome://extensions
@@ -36,7 +42,3 @@ Copyright (C) 2022 HolyshitOvO
 Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
 
 Please do not contact me except on this Github project issues.
-
-GPL-3.0 license
-
-
