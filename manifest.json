@@ -2,16 +2,21 @@
 	"manifest_version": 3,
 	"name": "Blank NewTab",
 	"version": "1.0",
-	"description": "Blank tab theme, the feature is to keep the new tab display bookmark function on Chrome browser.",
+	"description": "Blank NewTab, the feature is to keep the new tab display bookmark bar function on Chrome browser.",
 	"icons": {
-		"48": "icon48.png"
+		"16": "icon16.png"
 	},
 	"content_scripts": [{
 		"run_at": "document_start",
-		"matches": ["chrome://new-tab-page-third-party/"],
-		"css" : ["mycss.css"],
+		"matches": [
+		"chrome://new-tab-page-third-party/",
+		"chrome://newtab/"
+		],
 		"js" : ["inject.js"],
 		"all_frames": true
 	}],
-	"permissions": ["chrome://*/*"]
+	"host_permissions": [
+	"chrome://new-tab-page-third-party/",
+	"chrome://newtab/"
+	]
 }
